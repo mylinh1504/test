@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*
+Theme Name: Dulich
+Text Domain: dulich
+Version: 1.0
+Tested up to: 6.0
+Requires at least: 4.7
+Requires PHP: 7.4
+Description: Địa điểm đẹp, món ăn, đặt phòng, đặt vé online 
+Author: Linh
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/twentytwenty/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+.container{
+    background-color: aqua;
+}
+.navbar-header{
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+.menu{
+    
+    justify-items: center;
+    align-items: center; 
+   
+    line-height:auto;
+}
+.menu-item{
+     display:inline-block;
+     margin-left: 30px;
+    list-style-type: none;
+
+}
+.menu-item a{ 
+    text-decoration: none;
+}
+.sub-menu{
+    display: none;
+}
